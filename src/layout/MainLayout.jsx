@@ -1,8 +1,14 @@
 import Navbar from "../components/Navbar";
+import Home from "../pages/Home";
 const MainLayout = () => {
   return (
-    <div className="h-16">
-      <Navbar />
+    <div>
+      <div className="h-16">
+        <Navbar />
+      </div>
+      <div>
+        <Home />
+      </div>
     </div>
   );
 };
