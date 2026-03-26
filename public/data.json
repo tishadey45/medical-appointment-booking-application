@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Cameron Williamson",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "education": "MBBS, MD (General Medicine)",
+    "speciality": "General Physician",
+    "experience": "5+ Years",
+    "registration": "BD 12451254"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Sarah Johnson",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "education": "MBBS, FCPS (Cardiology)",
+    "speciality": "Cardiologist",
+    "experience": "8+ Years",
+    "registration": "BD 22334455"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Michael Brown",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "10+ Years",
+    "registration": "BD 33445566"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Davis",
+    "image": "https://randomuser.me/api/portraits/women/65.jpg",
+    "education": "MBBS, DGO",
+    "speciality": "Gynecologist",
+    "experience": "6+ Years",
+    "registration": "BD 44556677"
+  },
+  {
+    "id": 5,
+    "name": "Dr. James Wilson",
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "9+ Years",
+    "registration": "BD 55667788"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Olivia Martinez",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "education": "MBBS, BDS",
+    "speciality": "Dentist",
+    "experience": "4+ Years",
+    "registration": "BD 66778899"
+  },
+  {
+    "id": 7,
+    "name": "Dr. William Anderson",
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "7+ Years",
+    "registration": "BD 77889900"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Sophia Taylor",
+    "image": "https://randomuser.me/api/portraits/women/33.jpg",
+    "education": "MBBS, MD (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "5+ Years",
+    "registration": "BD 88990011"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Daniel Thomas",
+    "image": "https://randomuser.me/api/portraits/men/60.jpg",
+    "education": "MBBS, FCPS (Surgery)",
+    "speciality": "General Surgeon",
+    "experience": "11+ Years",
+    "registration": "BD 99001122"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Ava White",
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "education": "MBBS, MD (Pediatrics)",
+    "speciality": "Pediatrician",
+    "experience": "6+ Years",
+    "registration": "BD 10111213"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Ethan Harris",
+    "image": "https://randomuser.me/api/portraits/men/75.jpg",
+    "education": "MBBS, DLO",
+    "speciality": "ENT Specialist",
+    "experience": "3+ Years",
+    "registration": "BD 12131415"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Mia Clark",
+    "image": "https://randomuser.me/api/portraits/women/28.jpg",
+    "education": "MBBS, MD (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "7+ Years",
+    "registration": "BD 14151617"
+  }
+]
