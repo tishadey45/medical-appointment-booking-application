@@ -40,13 +40,7 @@ const Hero = () => {
                     />
                   </label>
     
-                  {/* <div className="join">
-                  <input
-                    className="input input-bordered join-item"
-                    placeholder="Search"
-                  />
-                  <button className="btn join-item">Search</button>
-                </div> */}
+               
                   <button className="btn bg-blue-700 text-white rounded-4xl">
                     search now
                   </button>
