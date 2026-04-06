@@ -2,20 +2,20 @@ import banner from "../assets/banner-img-1.png"
 
 const Hero = () => {
   return <div>
-     <div className="hero bg-base-200 min-h-screen">
-            <div className="hero-content text-center bg-gray-100 rounded-2xl">
+     <div className="min-h-screen hero bg-base-200">
+            <div className="text-center bg-gray-100 hero-content rounded-2xl">
               <div className="max-w-md md:max-w-2xl lg:max-w-4xl">
-                <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <h1 className="text-3xl font-bold leading-tight md:text-5xl lg:text-6xl">
                   Dependable Care, Backed by Trusted Professionals.
                 </h1>
     
-                <p className="py-6 text-sm md:text-lg lg:text-xl text-gray-600">
+                <p className="py-6 text-sm text-gray-600 md:text-lg lg:text-xl">
                   Our platform connects you with verified, experienced doctors
                   across various specialties — all at your convenience. Whether it's
                   a routine checkup or urgent consultation, book appointments in
                   minutes and receive quality care you can trust.
                 </p>
-                <div className="flex gap-4 items-center justify-center">
+                <div className="flex items-center justify-center gap-4">
                   <label className="input rounded-4xl">
                     <svg
                       className="h-[1em] opacity-50 "
@@ -41,7 +41,7 @@ const Hero = () => {
                   </label>
     
                
-                  <button className="btn bg-blue-700 text-white rounded-4xl">
+                  <button className="text-white bg-blue-700 btn rounded-4xl">
                     search now
                   </button>
                 </div>

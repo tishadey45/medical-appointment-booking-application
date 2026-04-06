@@ -4,6 +4,7 @@ import "./index.css";
 import MainLayout from "./layout/MainLayout.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import Contact from "./pages/Contact.jsx";
+import DoctorDetails from "./pages/DoctorDetails.jsx";
 import Home from "./pages/Home.jsx";
 import MyBookings from "./pages/MyBookings.jsx";
 
@@ -18,6 +19,16 @@ const router = createBrowserRouter([
         // loader : () => fetch("./data.json")
 
         //alternative
+        loader: async () => {
+          const res = await fetch(
+            "https://raw.githubusercontent.com/tishadey45/medical-appointment-booking-application/refs/heads/main/public/data.json",
+          );
+          return res.json();
+        },
+      },
+      {
+        path: "/doctor-details/:id",
+        element: <DoctorDetails />,
         loader: async () => {
           const res = await fetch(
             "https://raw.githubusercontent.com/tishadey45/medical-appointment-booking-application/refs/heads/main/public/data.json",
@@ -47,11 +58,7 @@ createRoot(document.getElementById("root")).render(
   </>,
 );
 
+//default
 
-
-
-
-//default 
-
-      //     loader: () =>  fetch(
-        //  "https://raw.githubusercontent.com/tishadey45/medical-appointment-booking-application/refs/heads/main/public/data.json")
+//     loader: () =>  fetch(
+//  "https://raw.githubusercontent.com/tishadey45/medical-appointment-booking-application/refs/heads/main/public/data.json")

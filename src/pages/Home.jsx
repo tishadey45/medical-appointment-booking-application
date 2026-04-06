@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import BestDoctors from "../components/BestDoctors";
 import Hero from "../components/Hero";
+import MedicalServices from "../components/MedicalServices";
 
 const Home = () => {
     const doctors=useLoaderData();
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
      <Hero/>
      <BestDoctors doctors={doctors}/>
+     <MedicalServices/>
     </div>
   );
 };
